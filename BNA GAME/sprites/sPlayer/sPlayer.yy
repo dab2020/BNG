@@ -4,7 +4,7 @@
   "bboxMode":1,
   "bbox_bottom":71,
   "bbox_left":0,
-  "bbox_right":39,
+  "bbox_right":49,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -36,8 +36,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BNA GAME",
-    "path":"BNA GAME.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -130,5 +130,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":40,
+  "width":50,
 }
