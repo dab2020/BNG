@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"Mossy___TileSet",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":447,
   "bbox_left":0,
   "bbox_right":447,

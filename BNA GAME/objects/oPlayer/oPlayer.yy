@@ -29,11 +29,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sPlayer",
     "path":"sprites/sPlayer/sPlayer.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sPlayer",
+    "path":"sprites/sPlayer/sPlayer.yy",
+  },
   "visible":true,
 }
