@@ -108,7 +108,7 @@ if (place_meeting(x+hsp, y,my_tilemap)){
 	x = _x;
 	hsp = 0;
 };
-
+x+= hsp;
 // vertical collision
 if place_meeting(x, y+vsp, [my_tilemap, my_tilemap1]){
 	var _y = round(y);
@@ -119,7 +119,7 @@ if place_meeting(x, y+vsp, [my_tilemap, my_tilemap1]){
 }
 
 // get it to move
-x+= hsp;
+
 y+= vsp
 
 

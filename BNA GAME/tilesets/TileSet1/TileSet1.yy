@@ -9,8 +9,8 @@
   },
   "name":"TileSet1",
   "out_columns":7,
-  "out_tilehborder":0,
-  "out_tilevborder":0,
+  "out_tilehborder":1,
+  "out_tilevborder":1,
   "parent":{
     "name":"Tile Sets",
     "path":"folders/Tile Sets.yy",
