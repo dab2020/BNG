@@ -11,6 +11,7 @@ if (!variable_instance_exists(id, "transition_alpha")) {
 #region Get Status
 // Calculte Status
 var _onground = place_meeting(x, y+groundbuffer, [my_tilemap,my_tilemap1]);
+var _onwall = place_meeting(x+1,y, [my_tilemap,  my_tilemap1]) - place_meeting(x-1,y, [my_tilemap,  my_tilemap1]);
 
 
 #endregion
