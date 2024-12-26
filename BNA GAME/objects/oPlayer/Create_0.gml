@@ -11,8 +11,8 @@ grav_max = 12;
 groundbuffer = 12;
 jumpheight = -12;
 jumpbuffer = 10; 
-grav_wall = 0.1;
-grav_max_wall =  3;
+grav_wall = 0.01;
+grav_max_wall =  5;
 
 lay_id = layer_get_id("TileLayer");
 my_tilemap = layer_tilemap_get_id(lay_id);

@@ -1,5 +1,3 @@
-// Made by Dayyan Abdullah @dab2020 dayyanabdullah.com
-
 #region Smooth Transition Variables
 // Transition variables
 if (!variable_instance_exists(id, "transition_alpha")) {
@@ -9,11 +7,9 @@ if (!variable_instance_exists(id, "transition_alpha")) {
 #endregion
 
 #region Get Status
-// Calculte Status
-var _onground = place_meeting(x, y+groundbuffer, [my_tilemap,my_tilemap1]);
-var _onwall = place_meeting(x+1,y, [my_tilemap,  my_tilemap1]) - place_meeting(x-1,y, [my_tilemap,  my_tilemap1]);
-
-
+// Calculate Status
+var _onground = place_meeting(x, y + groundbuffer, [my_tilemap, my_tilemap1]);
+var _onwall = place_meeting(x + 1, y, [my_tilemap, my_tilemap1]) - place_meeting(x - 1, y, [my_tilemap, my_tilemap1]);
 #endregion
 
 #region Inputs
@@ -24,13 +20,9 @@ var _key_jump = keyboard_check_pressed(vk_up);
 var _key_jump_held = keyboard_check(vk_up);
 #endregion
 
-
-
 #region Horizontal Movement
 // Calculate horizontal
-
-
-// Get direction Postive --> Right, Negative goes to the Left
+// Get direction: Positive --> Right, Negative --> Left
 var _dir = _key_right - _key_left;
 
 // Get speed (acceleration and deceleration)
@@ -47,112 +39,91 @@ if (_dir == 0) {
 
 // Clamp the speed to the maximum allowable value
 hsp = clamp(hsp, -max_hsp, max_hsp);
-
-
- if (_onwall !=0) && (!_onground) && (_key_jump) {
-	 hsp = -_onwall + wallJumpDistance;
-	 vsp = jumpheight_Wall;
-	 
- }
-	
-
 #endregion
 
 #region Vertical Movement
-// Calculate Vertical Movement
-// add gravity
+// Calculate vertical movement
+vsp += grav; // Add gravity
 
-var _grav_final = grav;
-var _grav_max_final = grav_max;
-if (_onwall != 0) {
-	if (vsp > 0){
-		_grav_final = grav_wall;
-		_grav_max_final = grav_max_wall;
-	}
-} else {
-	_grav_final = grav;
-}
-
-vsp += _grav_final;
-vsp = clamp(vsp, jumpheight, _grav_max_final);
-
-//Ground Jump
-if (jumpbuffer > 0){
-	jumpbuffer --;
-	if (_key_jump) && (vsp > 0){
-		jumpbuffer = 0;
-		vsp = jumpheight;
-
-	}
-
+// Ground jump
+if (jumpbuffer > 0) {
+    jumpbuffer--;
+    if (_key_jump && (vsp > 0)) {
+        jumpbuffer = 0;
+        vsp = jumpheight;
+    }
 }
 if (_onground) jumpbuffer = 10;
 
 // Variable jump height
-if (vsp < 0) && (!_key_jump_held){
-	vsp = max(vsp, jumpheight_min);
+if (vsp < 0 && !_key_jump_held) {
+    vsp = max(vsp, jumpheight_min);
 }
 
-
+vsp = clamp(vsp, jumpheight, grav_max);
 #endregion
 
-
 #region Collision System
-//Horinzontal COllision
-
-
-if (place_meeting(x+hsp, y,my_tilemap)){
-	var _x = round(x);
-	var _pixel = sign(hsp);
-	while (!place_meeting(_x+_pixel, y,my_tilemap)) _x += _pixel;
-	x = _x;
-	hsp = 0;
-};
-
-// vertical collision
-if place_meeting(x, y+vsp, [my_tilemap, my_tilemap1]){
-	var _y = round(y);
-	var _pixel = sign(vsp);
-	while (!place_meeting(x, _y+_pixel, [my_tilemap, my_tilemap1])) _y += _pixel;
-	y = _y;
-	vsp = 0;
+// Horizontal collision
+if (place_meeting(x + hsp, y, my_tilemap)) {
+    var _x = round(x);
+    var _pixel = sign(hsp);
+    while (!place_meeting(_x + _pixel, y, my_tilemap)) _x += _pixel;
+    x = _x;
+    hsp = 0;
 }
 
-// get it to move
-x+= hsp;
-y+= vsp
+// Vertical collision
+if (place_meeting(x, y + vsp, [my_tilemap, my_tilemap1])) {
+    var _y = round(y);
+    var _pixel = sign(vsp);
+    while (!place_meeting(x, _y + _pixel, [my_tilemap, my_tilemap1])) _y += _pixel;
+    y = _y;
+    vsp = 0;
+}
 
-
+// Apply movement
+x += hsp;
+y += vsp;
 #endregion
 
 #region Sprites
-
 // Determine the sprite based on the player's state
 if (_onwall != 0 && !_onground && vsp > 0) {
     sprite_index = sPlayerWall; // On a wall
-    image_xscale = -_onwall;   // Orient based on wall side (left or right)
-} else if (!_onground) {
-    if (vsp < 0) {
-        sprite_index = sPlayerJump; // Jumping
-    } else {
-        sprite_index = sPlayerLand; // Falling
+
+    // Lock the direction based on the wall side
+    if (!variable_instance_exists(id, "wall_lock") || wall_lock == 0) {
+        wall_lock = -_onwall; // Lock direction when first on wall
     }
-} else if (abs(hsp) > 0) {
-    sprite_index = sPlayerRun; // Running
-    image_xscale = sign(hsp);  // Flip sprite based on direction
+    image_xscale = wall_lock; // Use the locked direction
 } else {
-    sprite_index = sPlayer; // Idle (default standing sprite)
+    // Reset wall lock only when off the wall
+    if (_onwall == 0) {
+        wall_lock = 0;
+    }
+
+    if (!_onground) {
+        if (vsp < 0) {
+            sprite_index = sPlayerJump; // Jumping
+        } else {
+            sprite_index = sPlayerLand; // Falling
+        }
+    } else if (abs(hsp) > 0) {
+        sprite_index = sPlayerRun; // Running
+        image_xscale = sign(hsp);  // Flip sprite based on direction
+    } else {
+        sprite_index = sPlayer; // Idle (default standing sprite)
+    }
 }
 
 // Ensure correct orientation when stationary
 if (_dir != 0) {
     image_xscale = _dir; // Flip sprite if moving left or right
 }
-
 #endregion
 
-
-// Restart function (DELETE BF PRODUCTION)
-if (keyboard_check_pressed(vk_enter)){
-	game_restart();
+// Restart function (DELETE BEFORE PRODUCTION)
+if (keyboard_check_pressed(vk_enter)) {
+    game_restart();
 }
