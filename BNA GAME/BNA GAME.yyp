@@ -39,6 +39,7 @@
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
+    {"id":{"name":"sndMusic","path":"sounds/sndMusic/sndMusic.yy",},},
     {"id":{"name":"aniPlant1","path":"sprites/aniPlant1/aniPlant1.yy",},},
     {"id":{"name":"bg1","path":"sprites/bg1/bg1.yy",},},
     {"id":{"name":"bg10","path":"sprites/bg10/bg10.yy",},},
