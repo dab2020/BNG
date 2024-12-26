@@ -47,12 +47,34 @@ if (_dir == 0) {
 
 // Clamp the speed to the maximum allowable value
 hsp = clamp(hsp, -max_hsp, max_hsp);
+
+
+ if (_onwall !=0) && (!_onground) && (_key_jump) {
+	 hsp = -_onwall + wallJumpDistance;
+	 vsp = jumpheight_Wall;
+	 
+ }
+	
+
 #endregion
 
 #region Vertical Movement
 // Calculate Vertical Movement
 // add gravity
-vsp += grav;
+
+var _grav_final = grav;
+var _grav_max_final = grav_max;
+if (_onwall != 0) {
+	if (vsp > 0){
+		_grav_final = grav_wall;
+		_grav_max_final = grav_max_wall;
+	}
+} else {
+	_grav_final = grav;
+}
+
+vsp += _grav_final;
+vsp = clamp(vsp, jumpheight, _grav_max_final);
 
 //Ground Jump
 if (jumpbuffer > 0){
@@ -71,7 +93,6 @@ if (vsp < 0) && (!_key_jump_held){
 	vsp = max(vsp, jumpheight_min);
 }
 
-vsp = clamp(vsp, jumpheight, grav_max)
 
 #endregion
 
@@ -106,7 +127,11 @@ y+= vsp
 
 #region Sprites
 
-if (!_onground) {
+// Determine the sprite based on the player's state
+if (_onwall != 0 && !_onground && vsp > 0) {
+    sprite_index = sPlayerWall; // On a wall
+    image_xscale = -_onwall;   // Orient based on wall side (left or right)
+} else if (!_onground) {
     if (vsp < 0) {
         sprite_index = sPlayerJump; // Jumping
     } else {
@@ -122,7 +147,7 @@ if (!_onground) {
 // Ensure correct orientation when stationary
 if (_dir != 0) {
     image_xscale = _dir; // Flip sprite if moving left or right
- }
+}
 
 #endregion
 
