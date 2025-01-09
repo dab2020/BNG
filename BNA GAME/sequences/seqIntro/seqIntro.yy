@@ -41,7 +41,7 @@
   "tracks":[
     {"$GMTextTrack":"","%Name":"Font1","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetTextKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetTextKeyframe>":"","Channels":{
-              "0":{"$AssetTextKeyframe":"","Alignment":1,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"SK's Odyssey","Wrap":true,},
+              "0":{"$AssetTextKeyframe":"","Alignment":1,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"SK'sOdyssey","Wrap":true,},
             },"Disabled":false,"id":"c829e9aa-dfc9-4892-9200-0081a49143ec","IsCreationKey":false,"Key":718.0,"Length":601.0,"resourceType":"Keyframe<AssetTextKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetTextKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"Font1","resourceType":"GMTextTrack","resourceVersion":"2.0","trackColour":4294107208,"tracks":[
         {"$GMColourTrack":"","%Name":"blend_multiply","builtinName":10,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<ColourKeyframe>":"","Keyframes":[
