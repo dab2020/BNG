@@ -3,11 +3,11 @@
 draw_clear(c_black);
 
 // Set font and color for general text
-draw_set_font(-1); // Default font
+draw_set_font(Font1_1); // Default font
 draw_set_color(c_white);
 
 // Draw the title
-draw_text(room_width / 2 - 50, 50, "Login Menu");
+draw_text(room_width / 2 - 50, 50, "SK's Odyssey Login");
 
 // Delegation Number Label and Input Box
 draw_text(100, 150, "Delegation Number:");
@@ -33,4 +33,5 @@ draw_text(310, 200, string_repeat("*", string_length(password_input))); // Maske
 
 // Instructions and Feedback
 draw_text(100, 300, "Press Tab to switch between fields and Enter to submit.");
+draw_text(100, 320, "You should have received your credentials from your Head Delegate's email.");
 draw_text(100, 350, message); // Feedback message

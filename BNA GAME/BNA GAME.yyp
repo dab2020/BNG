@@ -39,10 +39,13 @@
   },
   "name":"BNA GAME",
   "resources":[
+    {"id":{"name":"Font1_1","path":"fonts/Font1_1/Font1_1.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oQuestionMark_1","path":"objects/oQuestionMark_1/oQuestionMark_1.yy",},},
+    {"id":{"name":"oQuestionMark","path":"objects/oQuestionMark/oQuestionMark.yy",},},
     {"id":{"name":"rIntroani_2","path":"rooms/rIntroani_2/rIntroani_2.yy",},},
     {"id":{"name":"rIntroani","path":"rooms/rIntroani/rIntroani.yy",},},
     {"id":{"name":"rMenuPassword","path":"rooms/rMenuPassword/rMenuPassword.yy",},},
@@ -80,6 +83,7 @@
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},},
     {"id":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},},
     {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},},
+    {"id":{"name":"sprQuestionMark","path":"sprites/sprQuestionMark/sprQuestionMark.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
@@ -87,10 +91,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
     {"roomId":{"name":"rMenuPassword","path":"rooms/rMenuPassword/rMenuPassword.yy",},},
     {"roomId":{"name":"rIntroani","path":"rooms/rIntroani/rIntroani.yy",},},
     {"roomId":{"name":"rIntroani_2","path":"rooms/rIntroani_2/rIntroani_2.yy",},},
-    {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
