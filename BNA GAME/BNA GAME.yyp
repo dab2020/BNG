@@ -40,10 +40,12 @@
   "name":"BNA GAME",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"rIntroani_2","path":"rooms/rIntroani_2/rIntroani_2.yy",},},
     {"id":{"name":"rIntroani","path":"rooms/rIntroani/rIntroani.yy",},},
+    {"id":{"name":"rMenuPassword","path":"rooms/rMenuPassword/rMenuPassword.yy",},},
     {"id":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
     {"id":{"name":"seqIntro_Events1","path":"scripts/seqIntro_Events1/seqIntro_Events1.yy",},},
     {"id":{"name":"seqLogos_Events2","path":"scripts/seqLogos_Events2/seqLogos_Events2.yy",},},
@@ -85,6 +87,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rMenuPassword","path":"rooms/rMenuPassword/rMenuPassword.yy",},},
     {"roomId":{"name":"rIntroani","path":"rooms/rIntroani/rIntroani.yy",},},
     {"roomId":{"name":"rIntroani_2","path":"rooms/rIntroani_2/rIntroani_2.yy",},},
     {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
