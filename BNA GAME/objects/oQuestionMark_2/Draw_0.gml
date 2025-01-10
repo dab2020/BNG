@@ -3,7 +3,7 @@ draw_self();
 
 // Show tutorial text with fade effect
 if (alpha > 0) {
-    var message = "The Bar at the top left showcases your health";
+    var message = "The Bar at the top rights shows your health";
 	var message1 = "The Game will end if your health falls below 10%";
     draw_set_color(c_white);
     draw_set_alpha(alpha); // Set transparency
