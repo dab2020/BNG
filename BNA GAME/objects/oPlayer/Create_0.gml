@@ -24,3 +24,7 @@ my_tilemap1 = layer_tilemap_get_id(lay_id2);
 jumpheight_min = -7;
 wallJumpDistance = 10;
 jumpheight_Wall = -9;
+
+
+hp = 100;
+hp_max = 100;
