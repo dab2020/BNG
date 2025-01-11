@@ -158,3 +158,20 @@ if (keyboard_check_pressed(vk_enter)){
 }
 
 
+if (instance_exists(interaction_npc) && keyboard_check_pressed(vk_space)) {
+    if (!global.dialogue_active) {
+        scr_dialogue_start(interaction_npc.dialogue_array);
+    }
+}
+
+
+
+// Step Event of obj_player
+if (instance_exists(interaction_npc)) {
+    // Check if the distance to the NPC is greater than a set range (e.g., 50 pixels)
+    if (point_distance(x, y, interaction_npc.x, interaction_npc.y) > 50) {
+        interaction_npc = noone;
+    }
+}
+
+
