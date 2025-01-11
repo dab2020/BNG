@@ -8,7 +8,7 @@ if (alpha > 0) {
 	var message2 = "Resource Points (Coin)";
 	var message3 = "Energy Points (Gem)";
 	var message4 = "Elixir (Potion)";
-    draw_set_color(c_green)
+    draw_set_color(c_white)
     draw_set_alpha(alpha); // Set transparency
     draw_text(x, y - 130, message); // Adjust position of the text
 	draw_text(x, y - 110, message1); // Adjust position of the text
