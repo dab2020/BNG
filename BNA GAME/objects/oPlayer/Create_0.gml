@@ -26,4 +26,5 @@ wallJumpDistance = 10;
 jumpheight_Wall = -9;
 
 
-interaction_npc = noone;
+hp = 100;
+hp_max = 100;

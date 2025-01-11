@@ -41,10 +41,8 @@
   "resources":[
     {"id":{"name":"Font1_1","path":"fonts/Font1_1/Font1_1.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
-    {"id":{"name":"obj_dialogue_controller","path":"objects/obj_dialogue_controller/obj_dialogue_controller.yy",},},
     {"id":{"name":"obj_health_bar","path":"objects/obj_health_bar/obj_health_bar.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
-    {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
     {"id":{"name":"obj_resource_display","path":"objects/obj_resource_display/obj_resource_display.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
