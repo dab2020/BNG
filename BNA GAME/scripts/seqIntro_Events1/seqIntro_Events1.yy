@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"seqIntro_Events1",
   "parent":{
-    "name":"BNA GAME",
-    "path":"BNA GAME.yyp",
+    "name":"Menu",
+    "path":"folders/Menu.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

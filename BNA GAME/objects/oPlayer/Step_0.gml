@@ -161,7 +161,7 @@ if (keyboard_check_pressed(vk_enter)){
 if (keyboard_check_pressed(vk_space)){
 	var who_is_here = instance_place(x, y, obj_walky);
 	if (who_is_here != noone) {
-			show_message("someone is here");
+			show_message(obj_walky.text);
 	}
 }
 

@@ -13,7 +13,7 @@
   "name":"Sound3",
   "parent":{
     "name":"Intro Effects",
-    "path":"folders/Intro Effects.yy",
+    "path":"folders/Menu/Intro Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

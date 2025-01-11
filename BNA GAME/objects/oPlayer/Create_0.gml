@@ -28,3 +28,9 @@ jumpheight_Wall = -9;
 
 hp = 100;
 hp_max = 100;
+
+
+
+
+
+

@@ -16,8 +16,8 @@
   ],
   "name":"rIntroani",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Menu",
+    "path":"folders/Menu.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
