@@ -52,7 +52,6 @@
     {"id":{"name":"oQuestionMark_1","path":"objects/oQuestionMark_1/oQuestionMark_1.yy",},},
     {"id":{"name":"oQuestionMark_2","path":"objects/oQuestionMark_2/oQuestionMark_2.yy",},},
     {"id":{"name":"oQuestionMark_3","path":"objects/oQuestionMark_3/oQuestionMark_3.yy",},},
-    {"id":{"name":"oQuestionMark_4","path":"objects/oQuestionMark_4/oQuestionMark_4.yy",},},
     {"id":{"name":"oQuestionMark","path":"objects/oQuestionMark/oQuestionMark.yy",},},
     {"id":{"name":"rIntroani_2","path":"rooms/rIntroani_2/rIntroani_2.yy",},},
     {"id":{"name":"rIntroani","path":"rooms/rIntroani/rIntroani.yy",},},
@@ -105,10 +104,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
     {"roomId":{"name":"rMenuPassword","path":"rooms/rMenuPassword/rMenuPassword.yy",},},
     {"roomId":{"name":"rIntroani","path":"rooms/rIntroani/rIntroani.yy",},},
     {"roomId":{"name":"rIntroani_2","path":"rooms/rIntroani_2/rIntroani_2.yy",},},
+    {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
