@@ -1,1 +1,0 @@
-draw_sprite(sHearticon,0,x+10, y-483);
