@@ -44,6 +44,8 @@
   "name":"BNA GAME",
   "resources":[
     {"id":{"name":"Font1_1","path":"fonts/Font1_1/Font1_1.yy",},},
+    {"id":{"name":"Font1_2","path":"fonts/Font1_2/Font1_2.yy",},},
+    {"id":{"name":"Font1_3","path":"fonts/Font1_3/Font1_3.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_health_bar","path":"objects/obj_health_bar/obj_health_bar.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
@@ -88,6 +90,7 @@
     {"id":{"name":"bg9","path":"sprites/bg9/bg9.yy",},},
     {"id":{"name":"Mossy___TileSet","path":"sprites/Mossy___TileSet/Mossy___TileSet.yy",},},
     {"id":{"name":"Mossy_Floating","path":"sprites/Mossy_Floating/Mossy_Floating.yy",},},
+    {"id":{"name":"sBox","path":"sprites/sBox/sBox.yy",},},
     {"id":{"name":"sElixir","path":"sprites/sElixir/sElixir.yy",},},
     {"id":{"name":"sEnergy","path":"sprites/sEnergy/sEnergy.yy",},},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},},

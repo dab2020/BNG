@@ -16,7 +16,6 @@ function create_textbox(){
 
     // Create sequence in the correct position
     global.textboxSequence = layer_sequence_create("Textbox", _seqX, _seqY, seqTextbox);
-	health = health - 10;
 	global.paused = true;
 }
 
