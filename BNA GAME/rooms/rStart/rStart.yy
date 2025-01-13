@@ -15,6 +15,7 @@
     {"name":"inst_410539D4","path":"rooms/rStart/rStart.yy",},
     {"name":"inst_2E8ECF2","path":"rooms/rStart/rStart.yy",},
     {"name":"inst_3064A9BE","path":"rooms/rStart/rStart.yy",},
+    {"name":"inst_7D1C06EE","path":"rooms/rStart/rStart.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,6 +40,7 @@
         {"$GMRInstance":"v1","%Name":"inst_410539D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_410539D4","objectId":{"name":"oQuestionMark_3","path":"objects/oQuestionMark_3/oQuestionMark_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":256.0,},
         {"$GMRInstance":"v1","%Name":"inst_2E8ECF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E8ECF2","objectId":{"name":"obj_walky","path":"objects/obj_walky/obj_walky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2368.0,"y":291.0,},
         {"$GMRInstance":"v1","%Name":"inst_3064A9BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3064A9BE","objectId":{"name":"oQuestionMark_4","path":"objects/oQuestionMark_4/oQuestionMark_4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2080.0,"y":288.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7D1C06EE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D1C06EE","objectId":{"name":"oTreasure","path":"objects/oTreasure/oTreasure.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2624.0,"y":299.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"ani_BOT","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_7744D1AA","animationSpeed":1.0,"colour":4294967295,"frozen":true,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7744D1AA","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},"x":96.0,"y":288.0,},

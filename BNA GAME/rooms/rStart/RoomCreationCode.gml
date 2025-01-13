@@ -7,3 +7,5 @@ if (!audio_is_playing(sndMusic)){
 layer_create(-10000, "Textbox");
 
 global.paused = false;
+
+global.chesttrans = false;
