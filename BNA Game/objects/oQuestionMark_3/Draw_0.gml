@@ -3,7 +3,7 @@ draw_self();
 
 // Show tutorial text with fade effect
 if (alpha > 0) {
-    var message = "Your Currencies are shown in the top left";
+    var message = "Your Currencies are shown in the top right";
 	var message1 = "There are Three types";
 	var message2 = "Resource Points (Coin)";
 	var message3 = "Energy Points (Gem)";
