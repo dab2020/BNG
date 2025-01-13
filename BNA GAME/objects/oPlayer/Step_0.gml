@@ -1,5 +1,17 @@
 // Made by Dayyan Abdullah @dab2020 dayyanabdullah.com
 
+
+
+
+#region Pause on Chat
+if (global.paused) {
+	sprite_index = sPlayer;
+	hsp = 0;
+	vsp = 0;
+	exit;
+}
+#endregion
+
 #region Smooth Transition Variables
 // Transition variables
 if (!variable_instance_exists(id, "transition_alpha")) {
@@ -155,13 +167,5 @@ if (_dir != 0) {
 // Restart function (DELETE BF PRODUCTION)
 if (keyboard_check_pressed(vk_enter)){
 	game_restart();
-}
-
-
-if (keyboard_check_pressed(vk_space)){
-	var who_is_here = instance_place(x, y, obj_walky);
-	if (who_is_here != noone) {
-			show_message(obj_walky.text);
-	}
 }
 

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"textboxFunctions",
+  "%Name":"TextboxFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"textboxFunctions",
+  "name":"TextboxFunctions",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
