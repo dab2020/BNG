@@ -44,6 +44,7 @@ var _key_jump_held = keyboard_check(vk_up);
 
 // Get direction Postive --> Right, Negative goes to the Left
 var _dir = _key_right - _key_left;
+global._dir = _dir;
 
 // Get speed (acceleration and deceleration)
 hsp += _dir * accel;

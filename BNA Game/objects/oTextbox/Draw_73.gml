@@ -1,10 +1,13 @@
 // Does not exist
-if (!instance_exists(oBoxName)) exit;
+if (!instance_exists(oBoxName) || !started) exit;
 
 draw_set_font(Font1_2);
-var _name = "Sage"
-var _message = "Ah, another traveler stirs. Lost, are you? Searching for answers that drift just beyond your grasp?";
-var _image = sSage;
+var _messageData = dialogue[messageIndex];
+var _name = _messageData.speaker.name;
+var _message = _messageData.message;
+var _image = _messageData.speaker.image;
+
+_message = string_copy(_message, 0, characters);
 
 
 draw_text(oBoxName.x+10, oBoxName.y +11, _name);

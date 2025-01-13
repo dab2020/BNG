@@ -1,7 +1,7 @@
-function create_textbox(){
+function create_textbox(_dialogueArray){
     // Create textbox
     var _textbox = instance_create_layer(0, 0, "Textbox", oTextbox);
-
+	_textbox.start(_dialogueArray);
     // Get camera position
     var _camX = camera_get_view_x(view_camera[0]);
     var _camY = camera_get_view_y(view_camera[0]);
@@ -24,7 +24,7 @@ function create_textbox(){
 function close_textbox(){
 	layer_sequence_destroy(global.textboxSequence);
 	instance_destroy(oTextbox);
-	
+	keyboard_clear(vk_space)
 	
 	
 	global.paused = false;
