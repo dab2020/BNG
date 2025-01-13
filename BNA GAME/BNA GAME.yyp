@@ -60,6 +60,7 @@
     {"id":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
     {"id":{"name":"seqIntro_Events1","path":"scripts/seqIntro_Events1/seqIntro_Events1.yy",},},
     {"id":{"name":"seqLogos_Events2","path":"scripts/seqLogos_Events2/seqLogos_Events2.yy",},},
+    {"id":{"name":"textboxFunctions","path":"scripts/textboxFunctions/textboxFunctions.yy",},},
     {"id":{"name":"seqIntro","path":"sequences/seqIntro/seqIntro.yy",},},
     {"id":{"name":"seqLogos","path":"sequences/seqLogos/seqLogos.yy",},},
     {"id":{"name":"seqTextbox","path":"sequences/seqTextbox/seqTextbox.yy",},},
