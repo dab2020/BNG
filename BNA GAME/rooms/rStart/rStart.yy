@@ -54,11 +54,12 @@
     {"$GMRTileLayer":"","%Name":"TileLayer","depth":500,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TileLayer","properties":[
         {"name":"g_TintCol","type":1,"value":"#FFFF702D",},
       ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":9,"SerialiseWidth":125,"TileCompressedData":[
-          1,4,-18,15,1,16,-26,-2147483648,1,0,-77,-2147483648,4,7,9,0,-2147483648,-5,0,-5,-2147483648,1,0,-32,
-          -2147483648,1,0,-77,-2147483648,5,7,9,0,-2147483648,-2147483648,-5,0,-2,-2147483648,1,0,-12,-2147483648,
-          -3,1,-3,0,-16,-2147483648,1,0,-77,-2147483648,3,7,9,0,-3,-2147483648,-6,0,-9,-2147483648,-3,1,1,0,-3,
-          -2147483648,-3,0,-10,-2147483648,-5,0,2,-2147483648,0,-77,-2147483648,2,7,9,-46,0,-77,-2147483648,2,
-          7,11,-123,1,1,12,-303,8,-50,-2147483648,-22,8,
+          1,4,-18,15,1,16,-23,-2147483648,1,7,-5,8,1,9,-74,-2147483648,4,7,9,0,-2147483648,-5,0,-5,-2147483648,
+          1,0,-29,-2147483648,1,7,-5,8,1,9,-74,-2147483648,5,7,9,0,-2147483648,-2147483648,-5,0,-2,-2147483648,
+          1,0,-12,-2147483648,-3,1,-3,0,-13,-2147483648,1,7,-5,8,1,9,-74,-2147483648,3,7,9,0,-3,-2147483648,-6,
+          0,-9,-2147483648,1,0,-3,1,-3,-2147483648,-3,0,-10,-2147483648,-3,0,1,7,-5,8,1,9,-74,-2147483648,2,7,
+          9,-42,0,1,7,-5,8,1,9,-74,-2147483648,2,7,11,-42,1,1,12,-5,8,1,11,-74,1,1,12,-303,8,-50,-2147483648,-22,
+          8,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Decor","depth":600,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Decor","properties":[
         {"name":"g_TintCol","type":1,"value":"#FFFF702D",},

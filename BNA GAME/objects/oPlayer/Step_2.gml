@@ -1,4 +1,4 @@
-var player = instance_nearest(x, y, obj_walky);
+var player = instance_nearest(x, y, oParentNPC);
 if (player != noone && !instance_exists(oTextbox)) {
     if (point_distance(x, y, player.x, player.y) < 128) { // Adjust the distance threshold as needed
         player.showMessageIcon = true;
