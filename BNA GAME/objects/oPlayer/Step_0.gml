@@ -170,3 +170,11 @@ if (keyboard_check_pressed(vk_enter)){
 	game_restart();
 }
 
+
+
+if (global.chesttrans) {
+    x = 3250;
+    y = 50;
+    global.chesttrans = false; // Reset the flag
+	show_message("Hello");
+}
