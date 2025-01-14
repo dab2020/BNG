@@ -176,5 +176,4 @@ if (global.chesttrans) {
     x = 3250;
     y = 50;
     global.chesttrans = false; // Reset the flag
-	show_message("Hello");
 }
