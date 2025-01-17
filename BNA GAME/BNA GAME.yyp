@@ -124,6 +124,7 @@
     {"id":{"name":"sPlayerLand","path":"sprites/sPlayerLand/sPlayerLand.yy",},},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
     {"id":{"name":"sPlayerWall","path":"sprites/sPlayerWall/sPlayerWall.yy",},},
+    {"id":{"name":"sPortal","path":"sprites/sPortal/sPortal.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
