@@ -1,1 +1,1 @@
-health = 100; // Health starts at 100%
+global.health = 100; // Health starts at 100%

@@ -4,6 +4,7 @@
 
 
 #region Pause on Chat
+
 if (global.paused) {
 	sprite_index = sPlayer;
 	hsp = 0;
@@ -11,6 +12,16 @@ if (global.paused) {
 	exit;
 }
 #endregion
+
+#region Pause on Options
+if (global.menu_active) {
+	sprite_index = sPlayer;
+	hsp = 0;
+	vsp = 0;
+	exit;
+}
+#endregion
+
 
 #region Smooth Transition Variables
 // Transition variables
@@ -177,3 +188,5 @@ if (global.chesttrans) {
     y = 50;
     global.chesttrans = false; // Reset the flag
 }
+
+

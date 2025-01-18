@@ -6,6 +6,14 @@ var _speakers = {
 	sage: {
 		name: "Sage",
 		image: sSage
+	},
+	wizard: {
+		name: "Wizard",
+		image: sDetective_1
+	},
+	horse: {
+		name: "Nightmare",
+		image: oHorse
 	}
 }
 
@@ -66,3 +74,22 @@ global.dialogue.first_meet = [
 		message: "The journey is yours alone, traveler."
 	},
 ]
+
+
+global.dialogue.prompt1 = [
+	{
+		speaker: _speakers.wizard,
+		message: "One Path leads to Clarity, another to despair, Choose Wisely SK"
+	}
+	]
+	
+	global.dialogue.prompt2 = [
+	{
+		speaker: _speakers.horse,
+		message: "The Artefact might hold the power to unlock your darkest secrets"
+	},
+	{
+		speaker: _speakers.horse,
+		message: "It may seem like a easy choice, but these waters have taken many a man"
+	}
+	]
