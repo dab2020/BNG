@@ -21,6 +21,7 @@ if (point_in_rectangle(mouse_x, mouse_y, x, y, x + width, y + height))
  
 if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed(vk_enter))
 {
+	global.menu_active = false;
     if (array_length(options[hover]) == 2)
     {
         var _func = options[hover][1];
@@ -33,4 +34,3 @@ if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed
  
  mxPrev = mouse_x;
  myPrev = mouse_y;
- show_debug_message("Hover index: " + string(hover));
