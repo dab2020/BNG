@@ -1,5 +1,5 @@
-resourcecurrency = 0; // Starting amount of in-game currency
+resourcecurrency = 100; // Starting amount of in-game currency
 
-energycurrency = 0;
+energycurrency = 100;
 
-elixircurrency = 0;
+elixircurrency = 100;

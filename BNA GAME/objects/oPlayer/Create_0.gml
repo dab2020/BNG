@@ -31,6 +31,8 @@ hp_max = 100;
 
 global.menu_active = false;
 
+global.sequence_active = false;
+
 
 
 

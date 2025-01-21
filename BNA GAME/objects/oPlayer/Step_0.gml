@@ -177,10 +177,6 @@ if (_dir != 0) {
 
 
 // Restart function (DELETE BF PRODUCTION)
-if (keyboard_check_pressed(vk_enter)){
-	game_restart();
-}
-
 
 
 if (global.chesttrans) {

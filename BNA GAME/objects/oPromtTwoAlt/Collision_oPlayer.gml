@@ -1,9 +1,9 @@
 Menu(
 x, y,
 [
-["Teleport Undergound", -1],
-["Use Elixir to retreive the Key", -1],
-["Teleport Onwards", -1]], "Chose A Path"
+["Teleport Undergound",  stage2four],
+["Use Elixir to retreive the Key", stage2two],
+["Teleport Onwards", stage2five]], "Chose A Path"
 );
 
 

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"seqIntroduceChestKeys_Events5",
   "parent":{
-    "name":"BNA GAME",
-    "path":"BNA GAME.yyp",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

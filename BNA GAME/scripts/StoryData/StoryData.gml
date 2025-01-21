@@ -5,6 +5,7 @@ function stage1red_door(){
 	if ((obj_resource_display.resourcecurrency > 5) && (obj_resource_display.energycurrency > 10)){
 		obj_resource_display.resourcecurrency = obj_resource_display.resourcecurrency - 5
 		obj_resource_display.energycurrency = obj_resource_display.energycurrency - 10
+		instance_create_depth(0,0, -9999, objFade);
 		spawn_x = 5100;
 		spawn_y = 300;
 		oPlayer.x = spawn_x; // Directly update oPlayer's x
@@ -21,6 +22,7 @@ function stage1red_door1(){
 	if ((obj_resource_display.elixircurrency > 15) && (obj_resource_display.energycurrency > 10)){
 		obj_resource_display.elixircurrency = obj_resource_display.elixircurrency - 10
 		obj_resource_display.energycurrency = obj_resource_display.energycurrency - 10
+		instance_create_depth(0,0, -9999, objFade);
 		spawn_x = 5100;
 		spawn_y = 100;
 		global.health = global.health -  5
@@ -38,6 +40,7 @@ function stage1red_door2(){
 		obj_resource_display.elixircurrency = obj_resource_display.elixircurrency - 5
 		obj_resource_display.energycurrency = obj_resource_display.energycurrency - 5
 		obj_resource_display.resourcecurrency = obj_resource_display.resourcecurrency - 15
+		instance_create_depth(0,0, -9999, objFade);
 		spawn_x = 4500;
 		spawn_y = 240;
 		global.health = global.health - 20
@@ -60,8 +63,8 @@ function stage2one(){
 		obj_resource_display.resourcecurrency = obj_resource_display.resourcecurrency - 10
 		obj_resource_display.energycurrency = obj_resource_display.energycurrency - 10
 		global.health = global.health -5
-		
-		
+		instance_create_depth(0,0, -9999, objFade);
+		room_goto(rkeyWater);
 		
 		
 		}
@@ -76,8 +79,8 @@ function stage2two(){
 	if ((obj_resource_display.elixircurrency > 15) && (obj_resource_display.energycurrency > 5)){
 		obj_resource_display.elixircurrency = obj_resource_display.elixircurrency - 15
 		obj_resource_display.energycurrency = obj_resource_display.energycurrency - 5
-
-
+		instance_create_depth(0,0, -9999, objFade);
+		room_goto(rkeyElixir);
 
 		}
 		else {
@@ -86,7 +89,28 @@ function stage2two(){
 }
 
 function stage2three (){
-	show_message("Hello")
+	instance_create_depth(0,0, -9999, objFade);
+	spawn_x = 7100;
+	spawn_y = 250;
+	oPlayer.x = spawn_x; // Directly update oPlayer's x
+	oPlayer.y = spawn_y;
+}
+
+
+function stage2four(){
+	instance_create_depth(0,0, -9999, objFade);
+	spawn_x = 5100;
+	spawn_y = 300;
+	oPlayer.x = spawn_x; // Directly update oPlayer's x
+	oPlayer.y = spawn_y; // Directly update oPlayer's y
+}
+
+function stage2five(){
+	spawn_x = 7100;
+	spawn_y = 250;
+	oPlayer.x = spawn_x; // Directly update oPlayer's x
+	oPlayer.y = spawn_y; // Directly update oPlayer's y
 }
 
 #endregion
+
