@@ -72,6 +72,7 @@
     {"id":{"name":"oParentNPC","path":"objects/oParentNPC/oParentNPC.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oPromtOneMenu","path":"objects/oPromtOneMenu/oPromtOneMenu.yy",},},
+    {"id":{"name":"oPromtThree","path":"objects/oPromtThree/oPromtThree.yy",},},
     {"id":{"name":"oPromtTwoAlt","path":"objects/oPromtTwoAlt/oPromtTwoAlt.yy",},},
     {"id":{"name":"oPromtTwoMenu","path":"objects/oPromtTwoMenu/oPromtTwoMenu.yy",},},
     {"id":{"name":"oQuestionMark_1","path":"objects/oQuestionMark_1/oQuestionMark_1.yy",},},

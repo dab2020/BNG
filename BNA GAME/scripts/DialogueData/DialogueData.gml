@@ -14,6 +14,10 @@ var _speakers = {
 	horse: {
 		name: "Nightmare",
 		image: oHorse
+	},
+	detective: {
+		name: "Doctor",
+		image: sSherlock
 	}
 }
 
@@ -93,3 +97,36 @@ global.dialogue.prompt1 = [
 		message: "It may seem like a easy choice, but these waters have taken many a man"
 	}
 	]
+	
+	
+	global.dialogue.prompt3 = [
+	{
+		speaker: _speakers.detective,
+		message: "Traveller, to pass, you must unlock the wisdom of this stone"
+	},
+	{
+		speaker: _speakers.detective,
+		message: "Only Those who can decipher life's paradoxes may proceed"
+	},
+	{
+		speaker: _speakers.detective,
+		message: "28-2-18-38-10-40-30-24-18-12-10"
+	}
+	]
+	
+	global.dialogue.prompt3extra = [
+	{
+		speaker: _speakers.detective,
+		message: "Alphabets are twice the numbers"
+	},
+	{
+		speaker: _speakers.player,
+		message: "What do you mean"
+	},
+	{
+		speaker: _speakers.detective,
+		message: "You will find out soon enough"
+	}
+	]
+	
+	
