@@ -28,6 +28,7 @@
     {"name":"inst_17141ED5","path":"rooms/rStart/rStart.yy",},
     {"name":"inst_1CD01294","path":"rooms/rStart/rStart.yy",},
     {"name":"inst_B01B1F0","path":"rooms/rStart/rStart.yy",},
+    {"name":"inst_20A36427","path":"rooms/rStart/rStart.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -81,6 +82,7 @@
         {"$GMRInstance":"v1","%Name":"inst_17141ED5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17141ED5","objectId":{"name":"obj_sherlock","path":"objects/obj_sherlock/obj_sherlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.3,"scaleY":1.3,"x":9280.0,"y":288.0,},
         {"$GMRInstance":"v1","%Name":"inst_1CD01294","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CD01294","objectId":{"name":"obj_death","path":"objects/obj_death/obj_death.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8576.0,"y":142.0,},
         {"$GMRInstance":"v1","%Name":"inst_B01B1F0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B01B1F0","objectId":{"name":"InvisbleWall_2","path":"objects/InvisbleWall_2/InvisbleWall_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":10784.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_20A36427","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20A36427","objectId":{"name":"obj_walterwhite","path":"objects/obj_walterwhite/obj_walterwhite.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":10720.0,"y":271.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_23B8288","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23B8288","objectId":{"name":"oQuestionMark","path":"objects/oQuestionMark/oQuestionMark.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":256.0,},

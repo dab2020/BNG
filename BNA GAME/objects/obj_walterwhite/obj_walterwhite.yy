@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSherlock",
-    "path":"sprites/sSherlock/sSherlock.yy",
+    "name":"sWalter",
+    "path":"sprites/sWalter/sWalter.yy",
   },
   "spriteMaskId":null,
   "visible":true,
