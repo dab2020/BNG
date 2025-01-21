@@ -114,3 +114,37 @@ function stage2five(){
 
 #endregion
 
+#region Prompt3
+function stage3correct(){
+	global.health += 10;
+	global.health = clamp(global.health, 0, 100)
+	instance_create_depth(0,0, -9999, objFade);
+	spawn_x = 10500;
+	spawn_y = 250;
+	oPlayer.x = spawn_x; // Directly update oPlayer's x
+	oPlayer.y = spawn_y;
+}
+
+
+
+function stage3wrong(){
+	global.health -= 5;
+	Menu(x,y,[["Incorrect Try Again", -1]])
+}
+
+
+
+function stage3skip(){
+	if (obj_resource_display.elixircurrency > 15){
+		obj_resource_display.elixircurrency = obj_resource_display.elixircurrency - 15;
+		instance_create_depth(0,0, -9999, objFade);
+		spawn_x = 10500;
+		spawn_y = 250;
+		oPlayer.x = spawn_x; // Directly update oPlayer's x
+		oPlayer.y = spawn_y;
+	}
+}
+
+
+
+#endregion

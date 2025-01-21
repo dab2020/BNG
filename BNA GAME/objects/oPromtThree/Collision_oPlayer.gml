@@ -1,10 +1,11 @@
 Menu(
 x-100, y,
 [
-["Revive",  -1],
-["Resurrect", -1],
-["Reanimate", -1],
-["Rejuvenate", -1]], "Correctly Identify the Synonym to Proceed"
+["Revive",  stage3wrong],
+["Resurrect",  stage3correct],
+["Reanimate", stage3wrong],
+["Rejuvenate", stage3wrong],
+["Trade Elixir to Proceed", stage3skip]], "Correctly Identify the Synonym to Proceed"
 );
 
 
