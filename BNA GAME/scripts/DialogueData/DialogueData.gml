@@ -18,6 +18,10 @@ var _speakers = {
 	detective: {
 		name: "Doctor",
 		image: sSherlock
+	},
+	death: {
+		name: "Death",
+		image: sDeath
 	}
 }
 
@@ -116,7 +120,7 @@ global.dialogue.prompt1 = [
 	
 	global.dialogue.prompt3extra = [
 	{
-		speaker: _speakers.detective,
+		speaker: _speakers.death,
 		message: "Alphabets are twice the numbers"
 	},
 	{
@@ -124,7 +128,7 @@ global.dialogue.prompt1 = [
 		message: "What do you mean"
 	},
 	{
-		speaker: _speakers.detective,
+		speaker: _speakers.death,
 		message: "You will find out soon enough"
 	}
 	]
