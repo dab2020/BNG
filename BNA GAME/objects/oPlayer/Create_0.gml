@@ -34,6 +34,9 @@ global.menu_active = false;
 global.sequence_active = false;
 
 
+global.keynum = 0;
+
+
 
 
 

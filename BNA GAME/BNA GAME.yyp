@@ -191,10 +191,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
     {"roomId":{"name":"rMenuPassword","path":"rooms/rMenuPassword/rMenuPassword.yy",},},
     {"roomId":{"name":"rIntroani","path":"rooms/rIntroani/rIntroani.yy",},},
     {"roomId":{"name":"rIntroani_2","path":"rooms/rIntroani_2/rIntroani_2.yy",},},
-    {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
     {"roomId":{"name":"rKeys","path":"rooms/rKeys/rKeys.yy",},},
     {"roomId":{"name":"rkeyWater","path":"rooms/rkeyWater/rkeyWater.yy",},},
     {"roomId":{"name":"rkeyElixir","path":"rooms/rkeyElixir/rkeyElixir.yy",},},

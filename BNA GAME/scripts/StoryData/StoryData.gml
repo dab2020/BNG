@@ -14,7 +14,7 @@ function stage1red_door(){
 		instance_create_depth(0,0, -9999, objFade);
 		}
 		else {
-			 Menu(x,y,[["You donot have sufficent resources", -1]])
+			 Menu(x,y,[["You do not have sufficent resources", -1]])
 		}
 	
 }
@@ -32,7 +32,7 @@ function stage1red_door1(){
 		instance_create_depth(0,0, -9999, objFade);
 		}
 		else {
-			Menu(x,y,[["You donot have sufficent resources", -1]])
+			Menu(x,y,[["You do not have sufficent resources", -1]])
 			
 		}
 }
@@ -51,7 +51,7 @@ function stage1red_door2(){
 		instance_create_depth(0,0, -9999, objFade);
 		}
 		else {
-			Menu(x,y,[["You donot have sufficent resources", -1]])
+			Menu(x,y,[["You do not have sufficent resources", -1]])
 		}
 }
 
@@ -73,7 +73,7 @@ function stage2one(){
 		
 		}
 		else {
-			 Menu(x,y,[["You donot have sufficent resources", -1]])
+			 Menu(x,y,[["You do not have sufficent resources", -1]])
 		}
 	
 }
@@ -83,12 +83,13 @@ function stage2two(){
 	if ((obj_resource_display.elixircurrency > 15) && (obj_resource_display.energycurrency > 5)){
 		obj_resource_display.elixircurrency = obj_resource_display.elixircurrency - 15
 		obj_resource_display.energycurrency = obj_resource_display.energycurrency - 5
-		instance_create_depth(0,0, -9999, objFade);
+		
 		room_goto(rkeyElixir);
+		instance_create_depth(0,0, -9999, objFade);
 
 		}
 		else {
-			Menu(x,y,[["You donot have sufficent resources", -1]])
+			Menu(x,y,[["You do not have sufficent resources", -1]])
 		}
 }
 
@@ -128,9 +129,10 @@ function stage3correct(){
 	
 	spawn_x = 10500;
 	spawn_y = 250;
-	instance_create_depth(0,0, -9999, objFade);
+	
 	oPlayer.x = spawn_x; // Directly update oPlayer's x
 	oPlayer.y = spawn_y;
+	instance_create_depth(0,0, -9999, objFade);
 }
 
 
@@ -148,9 +150,10 @@ function stage3skip(){
 		
 		spawn_x = 10500;
 		spawn_y = 250;
-		instance_create_depth(0,0, -9999, objFade);
+		
 		oPlayer.x = spawn_x; // Directly update oPlayer's x
 		oPlayer.y = spawn_y;
+		instance_create_depth(0,0, -9999, objFade);
 	}
 }
 
