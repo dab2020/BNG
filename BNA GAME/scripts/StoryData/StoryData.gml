@@ -180,9 +180,9 @@ function stage4correct(){
 	obj_resource_display.resourcecurrency = obj_resource_display.resourcecurrency +10;
 	obj_resource_display.energycurrency = obj_resource_display.energycurrency +10;
 	obj_resource_display.elixircurrency = obj_resource_display.elixircurrency +10;
-	spawn_x = 15500;
+	spawn_x = 15200;
 	spawn_y = 250;
-	
+	instance_create_depth(0,0, -9999, objFade);
 	oPlayer.x = spawn_x; // Directly update oPlayer's x
 	oPlayer.y = spawn_y;
 	instance_create_depth(0,0, -9999, objFade);
@@ -196,9 +196,8 @@ function stage4ignore(){
 	obj_resource_display.resourcecurrency = obj_resource_display.resourcecurrency +10;
 	obj_resource_display.energycurrency = obj_resource_display.energycurrency +10;
 	obj_resource_display.elixircurrency = obj_resource_display.elixircurrency +10;
-	Menu(x,y,[["Wrong Answer Try again", -1]])
 	instance_create_depth(0,0, -9999, objFade);
-	spawn_x = 15500;
+	spawn_x = 15200;
 	spawn_y = 250;
 	
 	oPlayer.x = spawn_x; // Directly update oPlayer's x

@@ -1,5 +1,5 @@
-image_xscale *= 100;
-image_yscale *= 100;
+image_xscale *= 5000;
+image_yscale *= 5000;
 
 
 fadespeed = .005;

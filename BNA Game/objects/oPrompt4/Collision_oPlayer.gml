@@ -1,5 +1,5 @@
 Menu(
-x-100, y,
+x-400, y,
 [
 ["Offer 58.44 grams of salt",  stage4wrong],
 ["Offer 29.22 grams of salt",  stage4correct],

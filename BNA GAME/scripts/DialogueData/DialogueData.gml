@@ -142,7 +142,7 @@ global.dialogue.prompt1 = [
 	global.dialogue.prompt4 = [
 	{
 		speaker: _speakers.chemist,
-		message: "Hello wanderer. It’s been ages since I’ve seen another person in these woods. A pleasant surprise to say the least."
+		message: "Hello wanderer. It has been ages since I have seen another person in these woods. A pleasant surprise to say the least."
 	},
 	{
 		speaker: _speakers.chemist,
