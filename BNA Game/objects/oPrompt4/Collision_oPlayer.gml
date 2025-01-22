@@ -1,11 +1,11 @@
 Menu(
 x-100, y,
 [
-["Revive",  stage3wrong],
-["Resurrect",  stage3correct],
-["Reanimate", stage3wrong],
-["Rejuvenate", stage3wrong],
-["Trade Elixir to Proceed", stage3skip]], "Correctly Identify the Synonym to Proceed"
+["Offer 58.44 grams of salt",  stage4one],
+["Offer 29.22 grams of salt",  stage4two],
+["Offer 116.88 grams of salt", stage4three],
+["Ignore and Move Onwards", stage4four],
+], "Help the Chemist"
 );
 
 

@@ -22,6 +22,10 @@ var _speakers = {
 	death: {
 		name: "Death",
 		image: sDeath
+	},
+	chemist: {
+		name: "Chemist",
+		image: sWalter
 	}
 }
 
@@ -131,6 +135,32 @@ global.dialogue.prompt1 = [
 		speaker: _speakers.death,
 		message: "You will find out soon enough"
 	}
+	]
+	
+	
+	
+	global.dialogue.prompt4 = [
+	{
+		speaker: _speakers.chemist,
+		message: "Hello wanderer. It’s been ages since I’ve seen another person in these woods. A pleasant surprise to say the least."
+	},
+	{
+		speaker: _speakers.chemist,
+		message: "Ah alas, I must ask for your assistance. You see, I have trouble seeing and need the right amount of salt for my concoction."
+	},
+	{
+		speaker: _speakers.chemist,
+		message: "My Product demands the pure essence of salt."
+	},
+	{
+		speaker: _speakers.chemist,
+		message: "Extract exactly what is needed to form 0.5 mole of this crystalline compound."
+	},
+	{
+		speaker: _speakers.chemist,
+		message: "But beware, the wrong quantity may lead to exposure to harmful chemicals"
+	}
+	
 	]
 	
 	
